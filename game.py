@@ -1,13 +1,19 @@
 import random
 
-class FruitRoller:
-    def __init__(self, starting_amount: float = 1.00) -> None:
-        self.starting_amount: float = float(starting_amount)
-        self.balance: float = self.starting_amount
-        self.symbols: list[str] = ["Cherry", "Bell", "Lemon", "Orange", "Star", "Skull"]
-        self.bell_sets: int = 0
-        self.skull_sets: int = 0
+from dataclasses import dataclass, field
 
+@dataclass
+class FruitRoller:
+    starting_amount: float = 1.00
+    balance: float = field(init=False)
+    symbols: list[str] = field(default_factory=lambda: ["Cherry", "Bell", "Lemon", "Orange", "Star", "Skull"])
+    bell_sets: int = 0
+    skull_sets: int = 0
+
+    def __post_init__(self):
+        self.balance = self.starting_amount
+
+        
     def fruit_roller(self) -> None:
         print("Commands: Quit and Roll")
         commands: list[str] = ["QUIT", "ROLL", ""]
@@ -67,4 +73,4 @@ class FruitRoller:
 
 if __name__ == "__main__":
     game = FruitRoller()
-    game.start()
+    game.fruit_roller()
