@@ -1,8 +1,8 @@
 ![FruitRoller](assets/back.png)
 
 # $${\color{red}Fruit Roller Game - Zak Rehman}$$
-## $${\color{orange}Game Rules}$$	<br/>
-$${\color{blue}Fruits You Can Roll:}$$
+## $${\color{orange}Game Rules}$$
+$${\color{blue}Fruits You Can Roll:}$$<br/>
 <code>Cherry</code><br/>
 <code>Bell</code><br/>
 <code>Lemon</code><br/>
