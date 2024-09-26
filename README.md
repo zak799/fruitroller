@@ -10,4 +10,4 @@
 <code>Star</code><br/>
 <code>Skull</code><br/>
 
-<p> Use Either The Roll or Quit Command. Each Roll Costs 20p, If You Less Than 20p You Will Be Bankrupted. $${\color{orange}If Your Roll 3 Bells In A Row You Win £5}$$	
+<p> Use Either The Roll or Quit Command. Each Roll Costs 20p, If You Less Than 20p You Will Be Bankrupted. $${\color{orange}If \spaceYour\space Roll\space 3\space Bells\space In\space A \spaceRow\space You\space Win\space £5}$$	
