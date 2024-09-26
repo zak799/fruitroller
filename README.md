@@ -11,6 +11,5 @@
 <code>Skull</code><br/>
 
 <p> Use Either The Roll or Quit Command. Each Roll Costs 20p, If You Less Than 20p You Will Be Bankrupted. $${\color{orange}If \space Your \space Roll \space 3 \space Bells \space In \space A \space Row \space You \space Win \space £5}$$
-
 $${\color{black}If \space You \space Roll \space 3 \space Skulls \space You \space Lose \space Everything}$$	
 
